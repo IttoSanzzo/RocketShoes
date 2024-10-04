@@ -1,0 +1,171 @@
+/* Global */
+
+body {
+	background-color: rgb(236, 236, 237);
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Global Container */
+
+#globalContainer {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+/* Header Bar */
+.headerBar {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 1320px;
+	max-height: 48px;
+	width: 90%;
+	height: 90%;
+	margin-top: 39px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerBar a {
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+#sideBarButton {
+	width: 52px;
+	height: 36.4px;
+}
+#searchBar input {
+	width: 220px;
+	height: 38px;
+	resize: none;
+	border-color: transparent;
+	padding-left: 45px;
+	padding-top: 7px;
+	font-size: larger;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#searchBar button {
+	position: absolute;
+	width: 24px;
+	height: 22.98px;
+	margin: 15px 10px;
+	background-color: transparent;
+	border-color: transparent;
+}
+#searchBar button img {
+	width: inherit;
+	height: inherit;
+	margin-left: -8px;
+	margin-top: -3px;
+}
+
+/* Main Container */
+
+.mainContainer {
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+}
+
+.buyContainer {
+	flex: 1;
+}
+
+/* Product Media */
+
+.productMedia {
+	width: 900px;
+	height: 914px;
+	background-color: rgb(196, 196, 196);
+}
+
+/* BuyInfo */
+
+#buyInfo {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 190px;
+}
+
+.productTitle {
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: -5px;
+}
+.productDescription {
+	font-size: 16px;
+	color: #9c9696;
+}
+.productPrice {
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+}
+#buyButton {
+	display: block;
+	border-color: transparent;
+	background-color: red;
+	font-weight: 600;
+	color: white;
+	width: 274px;
+	height: 90px;
+	margin: auto;
+}
+
+/* Product Media */
+
+#mainImage {
+	display: block;
+	width: 597px;
+	height: 510px;
+	margin: auto;
+	margin-top: 174px;
+}
+.galery {
+	margin: 0 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Bottom Container */
+
+.bottomContainer {
+	position: absolute;
+	width: 100%;
+	height: 166.33px;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bottomButtom {
+	width: 100%;
+	height: inherit;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#exploreMoreButton {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	min-width: 437px;
+	max-width: 100%;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
