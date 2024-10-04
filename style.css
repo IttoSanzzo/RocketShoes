@@ -76,14 +76,6 @@ body {
 	flex: 1;
 }
 
-/* Product Media */
-
-.productMedia {
-	width: 900px;
-	height: 914px;
-	background-color: rgb(196, 196, 196);
-}
-
 /* BuyInfo */
 
 #buyInfo {
@@ -121,6 +113,11 @@ body {
 
 /* Product Media */
 
+.productMedia {
+	width: 900px;
+	height: 100vh;
+	background-color: rgb(196, 196, 196);
+}
 #mainImage {
 	display: block;
 	width: 597px;
@@ -148,6 +145,7 @@ body {
 	align-items: center;
 }
 .bottomButtom {
+	background-color: rgb(236, 236, 237);
 	width: 100%;
 	height: inherit;
 	text-decoration: none;
